@@ -9,9 +9,3 @@ export const routes = [
     page(':id', 'users/view'),
   ]),
 ]
-
-// rename routes.js and route() to pages.js and page()
-
-// Or, area.config.js and export const pages = {}
-
-// should also scan for area.config.js to determine nested routes
