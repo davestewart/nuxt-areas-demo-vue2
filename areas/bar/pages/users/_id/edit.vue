@@ -1,7 +1,9 @@
 <template>
   <section>
     <h3>Edit user</h3>
-    <pre>areas/bar/pages/users/_id/edit</pre>
+    <output>
+      <pre>areas/bar/pages/users/_id/edit</pre>
+    </output>
   </section>
 </template>
 

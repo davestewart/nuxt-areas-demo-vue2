@@ -1,7 +1,9 @@
 <template>
   <section>
     <h3>All users</h3>
-    <pre>pages/foo/users/index</pre>
+    <output>
+      <pre>areas/grouped/quux/pages/users/index</pre>
+    </output>
     <ul>
       <li><page-link to="create">Create user</page-link></li>
       <li><page-link to="123">View user 123</page-link></li>

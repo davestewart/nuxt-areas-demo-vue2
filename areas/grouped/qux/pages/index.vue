@@ -1,11 +1,16 @@
 <template>
   <section>
     <h3>Qux index</h3>
-    <pre>areas/grouped/qux/pages/index</pre>
-    <StoreValue path="grouped.qux"/>
-    <StoreValue path="qux.test"/>
-    <ul>
-      <li><page-link to="users">Users</page-link></li>
-    </ul>
+    <output>
+      <pre>areas/grouped/qux/pages/index</pre>
+      <StoreValue path="grouped/qux"/>
+      <StoreValue path="grouped/qux/test"/>
+    </output>
+    <section>
+      <h3>Pages</h3>
+      <ul>
+        <li><page-link to="users">Users</page-link></li>
+      </ul>
+    </section>
   </section>
 </template>

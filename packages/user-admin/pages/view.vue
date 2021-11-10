@@ -1,8 +1,8 @@
 <template>
   <section>
-    <h3>Create user</h3>
+    <h3>View user</h3>
     <output>
-      <pre>areas/bar/pages/users/create</pre>
+      <pre>packages/user-admin/pages/view</pre>
     </output>
   </section>
 </template>

@@ -1,7 +1,9 @@
 <template>
   <section>
     <h3>Qux Users</h3>
-    <pre>areas/grouped/qux/pages/users</pre>
+    <output>
+      <pre>areas/grouped/qux/pages/users</pre>
+    </output>
     <nuxt-child></nuxt-child>
   </section>
 </template>

@@ -11,8 +11,9 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
       { rel: 'stylesheet', type: 'text/css', href: 'https://unpkg.com/purecss@2.0.6/build/pure-min.css' },
+      { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap' },
     ]
   },
 
@@ -25,4 +26,23 @@ export default {
   buildModules: [
     { src: 'nuxt-areas' },
   ],
+
+  areas: {
+    debug: true,
+    packages: [
+      {
+        src: '~/packages/admin',
+        route: '/admin'
+      },
+      {
+        src: '~/packages/user-admin',
+        route: '/admin/users',
+        namespace: '/admin/users'
+      },
+      {
+        src: '~/packages/test-package',
+        route: '/test'
+      },
+    ]
+  }
 }

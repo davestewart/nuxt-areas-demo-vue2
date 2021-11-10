@@ -2,7 +2,7 @@
   <section>
     <h3>All users</h3>
     <output>
-      <pre>areas/bar/pages/users/index</pre>
+      <pre>pages/foo/users/index</pre>
     </output>
     <ul>
       <li><page-link to="create">Create user</page-link></li>

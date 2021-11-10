@@ -1,7 +1,9 @@
 <template>
   <section>
     <h3>View user</h3>
-    <pre>pages/foo/users/_id/index</pre>
+    <output>
+      <pre>pages/foo/users/_id/index</pre>
+    </output>
     <nuxt-child class="child">NOTHING HERE</nuxt-child>
   </section>
 </template>

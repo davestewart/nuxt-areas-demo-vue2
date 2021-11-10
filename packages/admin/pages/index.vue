@@ -1,9 +1,8 @@
 <template>
   <section>
-    <h3>Baz index</h3>
+    <h3>Admin</h3>
     <output>
-      <pre>areas/baz/pages/index</pre>
-      <StoreValue path="baz"/>
+      <pre>packages/admin/pages/index</pre>
     </output>
     <section>
       <h3>Pages</h3>

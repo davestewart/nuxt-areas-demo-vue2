@@ -1,9 +1,10 @@
 <template>
   <section>
-    <h3>Baz index</h3>
+    <h3>Quux index</h3>
     <output>
-      <pre>areas/baz/pages/index</pre>
-      <StoreValue path="baz"/>
+      <pre>areas/grouped/quux/pages/index</pre>
+      <StoreValue path="grouped/nested/quux"/>
+      <StoreValue path="grouped/nested/quux/test"/>
     </output>
     <section>
       <h3>Pages</h3>

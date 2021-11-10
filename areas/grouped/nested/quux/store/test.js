@@ -1,4 +1,4 @@
-// export const namespace = 'qux/test'
+// export const namespace = 'fruit/apples'
 
 export function state () {
   return {

@@ -1,3 +1,9 @@
+:root {
+  --green: #1BBC7F;
+  --blue: #2E4960;
+  --grey: #F7F8F9;
+}
+
 body {
   height: 100vh;
   width: 100%;
@@ -6,11 +12,19 @@ body {
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  color: var(--blue);
 }
 
 #__layout {
   width: 400px;
-  height: 400px;
+  height: 800px;
+}
+
+#logo {
+  width: 400px;
+  user-select: none;
+  pointer-events: none;
 }
 
 section {
@@ -30,9 +44,15 @@ p, li {
   line-height: 1.4;
 }
 
+ul {
+  padding-left: 1.8rem;
+}
+
 nav {
   display: flex;
   padding: .5rem .5rem;
+  text-transform: uppercase;
+  font-weight: 900;
 }
 
 nav a {
@@ -43,19 +63,29 @@ nav a {
 a {
   border-radius: 4px;
   text-decoration: none;
-  color: #186cce;
+  color: var(--green);
 }
 
 a:hover {
-  color: black;
+  color: var(--blue);
 }
 
 a.nuxt-link-active:not(.link-home, .link-up),
 a.nuxt-link-exact-active.nuxt-link-active {
-  background: #EEE;
+  color: var(--blue);
+  background: var(--grey);
 }
 
 pre {
-  font-size: .8em;
-  color: red;
+  font-size: .75rem;
+}
+
+output {
+  display: block;
+  margin-bottom: 1rem;
+  padding: 0 16px;
+  border-radius: 6px;
+  background: var(--grey);
+  line-height: 1.4;
+  font-size: 12px;
 }

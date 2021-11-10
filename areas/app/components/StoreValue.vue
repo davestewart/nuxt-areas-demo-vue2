@@ -1,6 +1,6 @@
 <template>
   <p class="value">
-    state.{{ valuePath }}: <input type="number" min="0" v-model="value">
+    state.{{ valuePath }}: <input type="number" min="0" v-model.number="value">
   </p>
 </template>
 
@@ -23,7 +23,7 @@ export default {
   computed: {
     valuePath () {
       return this.path
-        ? `${this.path}.value`
+        ? `${this.path.replace(/\//g, '.')}.value`
         : 'value'
     },
 
@@ -43,7 +43,7 @@ export default {
 <style>
 .value {
   font-family: monospace;
-  color: red;
+  font-size: .7rem !important;
 }
 
 .value input {

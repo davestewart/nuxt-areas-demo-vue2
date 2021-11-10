@@ -1,8 +1,8 @@
 <template>
   <section>
-    <h3>Baz Users</h3>
+    <h3>Quux Users</h3>
     <output>
-      <pre>areas/baz/pages/users</pre>
+      <pre>areas/grouped/quux/pages/users</pre>
     </output>
     <nuxt-child></nuxt-child>
   </section>

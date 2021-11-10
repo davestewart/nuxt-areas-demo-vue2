@@ -1,8 +1,8 @@
-// export const namespace = 'qux/test'
+export const namespace = '/admin/users'
 
 export function state () {
   return {
-    value: 5,
+    value: 6,
   }
 }
 
