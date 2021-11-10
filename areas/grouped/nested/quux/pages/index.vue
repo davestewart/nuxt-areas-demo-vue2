@@ -2,9 +2,9 @@
   <section>
     <h3>Quux index</h3>
     <output>
-      <pre>areas/grouped/quux/pages/index</pre>
-      <StoreValue path="grouped/nested/quux"/>
-      <StoreValue path="grouped/nested/quux/test"/>
+      <pre>areas/grouped/nested/quux/pages/index</pre>
+      <StoreValue path="nested/quux"/>
+      <StoreValue path="nested/quux/test"/>
     </output>
     <section>
       <h3>Pages</h3>

@@ -2,7 +2,7 @@
   <section>
     <h3>All users</h3>
     <output>
-      <pre>areas/grouped/quux/pages/users/index</pre>
+      <pre>areas/grouped/nested/quux/pages/users/index</pre>
     </output>
     <ul>
       <li><page-link to="create">Create user</page-link></li>

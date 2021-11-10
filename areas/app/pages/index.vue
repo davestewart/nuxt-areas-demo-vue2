@@ -16,8 +16,8 @@
       <section>
         <h3>Grouped</h3>
         <ul>
-          <li><nuxt-link to="/qux">Qux</nuxt-link></li>
-          <li><nuxt-link to="/grouped/quux">Quux</nuxt-link></li>
+          <li><nuxt-link to="/grouped/qux">Qux</nuxt-link></li>
+          <li><nuxt-link to="/nested/quux">Quux</nuxt-link></li>
         </ul>
       </section>
       <section>

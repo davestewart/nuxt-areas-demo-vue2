@@ -1,2 +1,2 @@
-export const namespace = 'nested'
-export const route = '/grouped'
+export const namespace = '/nested'
+export const route = '/nested'
