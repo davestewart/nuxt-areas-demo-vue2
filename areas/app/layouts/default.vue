@@ -10,7 +10,7 @@
       <page-link to="/grouped/qux">Qux</page-link>
       <page-link to="/nested/quux">Quux</page-link>
       <page-link to="/admin">Admin</page-link>
-      <page-link to="/test">Test</page-link>
+      <page-link to="/fifty-one">51</page-link>
       <page-link v-if="$route.path !== '/'" to="../" class="link-up">Up</page-link>
     </nav>
     <nuxt />

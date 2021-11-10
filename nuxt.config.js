@@ -40,8 +40,8 @@ export default {
         namespace: '/admin/users'
       },
       {
-        src: '~/packages/test-package',
-        route: '/test'
+        src: '~/packages/fifty-one',
+        route: '/fifty-one'
       },
     ]
   }

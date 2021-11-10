@@ -24,7 +24,7 @@
         <h3>External</h3>
         <ul>
           <li><nuxt-link to="/admin">Admin</nuxt-link></li>
-          <li><nuxt-link to="/test">Test</nuxt-link></li>
+          <li><nuxt-link to="/fifty-one">51</nuxt-link></li>
         </ul>
       </section>
     </div>
