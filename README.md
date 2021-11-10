@@ -2,6 +2,10 @@
 
 > Demo project to showcase Nuxt Areas functionality
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/davestewart/nuxt-areas/master/docs/nuxt-areas.png" alt="Nuxt Areas">
+</p>
+
 ## Overview
 
 [Nuxt Areas](https://github.com/davestewart/nuxt-areas) is a Nuxt module which enables you to group together related content (pages, stores, components, etc) in discrete folders called "areas".
