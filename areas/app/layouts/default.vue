@@ -1,7 +1,7 @@
 <template>
   <div>
     <GithubCorner/>
-    <img src="/logo.png" alt="Nuxt Areas Logo" id="logo">
+    <img src="/nuxt-areas-demo.png" alt="Nuxt Areas Logo" id="logo">
     <nav>
       <page-link to="/" class="link-home">Home</page-link>
       <page-link to="/foo">Foo</page-link>
