@@ -28,6 +28,8 @@ export default {
   ],
 
   areas: {
+    base: 'app',
+    app: 'core',
     debug: true,
     packages: [
       {

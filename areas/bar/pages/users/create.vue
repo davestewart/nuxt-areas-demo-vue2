@@ -1,8 +1,0 @@
-<template>
-  <section>
-    <h3>Create user</h3>
-    <output>
-      <pre>areas/bar/pages/users/create</pre>
-    </output>
-  </section>
-</template>

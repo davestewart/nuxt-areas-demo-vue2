@@ -5,6 +5,7 @@
 }
 
 body {
+  overflow-y: scroll;
   height: 100vh;
   width: 100%;
   padding: 1em;
@@ -68,6 +69,13 @@ a {
 
 a:hover {
   color: var(--blue);
+}
+
+a[disabled] {
+  pointer-events: none;
+  user-select: none;
+  color: var(--blue);
+  opacity: .2;
 }
 
 a.nuxt-link-active:not(.link-home, .link-up),
