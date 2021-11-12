@@ -24,7 +24,7 @@ export default {
     },
 
     hasTarget () {
-      return this.$router.match(this.target).name
+      return this.$router.match(this.target).matched.length
     },
   },
 
