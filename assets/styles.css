@@ -1,7 +1,8 @@
 :root {
   --green: #1BBC7F;
   --blue: #2E4960;
-  --grey: #F7F8F9;
+  --light-grey: #F7F8F9;
+  --grey: #d5dbdf;
 }
 
 body {
@@ -28,6 +29,7 @@ body {
   pointer-events: none;
 }
 
+
 section {
   padding: 1em;
   border-top: 1px dotted #CCC;
@@ -35,6 +37,17 @@ section {
 
 section > section {
   margin-left: -1em;
+}
+
+
+output {
+  display: block;
+  margin-bottom: 1rem;
+  padding: 0 16px;
+  border-radius: 6px;
+  background: var(--light-grey);
+  line-height: 1.4;
+  font-size: 12px;
 }
 
 :is(h1, h2, h3, h4, h5):first-child {
@@ -74,26 +87,23 @@ a:hover {
 a[disabled] {
   pointer-events: none;
   user-select: none;
-  color: var(--blue);
-  opacity: .2;
+  color: var(--grey);
 }
 
 a.nuxt-link-active:not(.link-home, .link-up),
 a.nuxt-link-exact-active.nuxt-link-active {
   color: var(--blue);
-  background: var(--grey);
+  background: var(--light-grey);
 }
 
 pre {
   font-size: .75rem;
 }
 
-output {
-  display: block;
-  margin-bottom: 1rem;
-  padding: 0 16px;
-  border-radius: 6px;
-  background: var(--grey);
-  line-height: 1.4;
-  font-size: 12px;
+.small {
+  font-size: .8em;
+}
+
+.dim {
+  color: var(--grey);
 }

@@ -24,26 +24,27 @@ export default {
   components: true,
 
   buildModules: [
-    { src: 'nuxt-areas' },
+    'nuxt-areas',
   ],
 
   areas: {
     base: 'app',
     app: 'core',
     debug: true,
-    packages: [
+    external: [
       {
-        src: '~/packages/admin',
+        src: '~/external/admin',
         route: '/admin'
       },
       {
-        src: '~/packages/user-admin',
+        src: '~/external/user-admin',
         route: '/admin/users',
         namespace: '/admin/users'
       },
       {
-        src: '~/packages/fifty-one',
-        route: '/fifty-one'
+        src: 'area-51',
+        route: '/fifty-one',
+        namespace: '/external/fiftyone',
       },
     ]
   }

@@ -2,7 +2,7 @@
   <section>
     <h3>User admin</h3>
     <output>
-      <pre>packages/user-admin/pages/index</pre>
+      <pre>external/user-admin/pages/index</pre>
       <StoreValue path="admin/users"/>
     </output>
     <section>

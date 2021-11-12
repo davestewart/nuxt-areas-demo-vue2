@@ -18,9 +18,9 @@
 </template>
 
 <style>
-a.link-up {
-  margin-left: .5rem;
-  padding-left: .5rem;
+a.link-up:before {
+  content: " ";
+  margin-right: .75rem;
   border-left: 1px dotted #CCC;
 }
 </style>

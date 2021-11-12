@@ -2,7 +2,7 @@
   <section>
     <h3>Admin</h3>
     <output>
-      <pre>packages/admin/pages/index</pre>
+      <pre>external/admin/pages/index</pre>
     </output>
     <section>
       <h3>Pages</h3>

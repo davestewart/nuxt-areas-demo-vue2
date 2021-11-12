@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-nested-views",
+  "name": "nuxt-areas-demo",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -9,9 +9,10 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "area-51": "github:davestewart/area-51",
     "core-js": "^3.15.1",
     "nuxt": "^2.15.7",
-    "nuxt-areas": "^0.7.0",
+    "nuxt-areas": "^0.8.0",
     "path-browserify": "^1.0.1"
   },
   "devDependencies": {
