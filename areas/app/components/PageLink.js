@@ -1,35 +1,9 @@
-/**
- * Rudimentary resolve function, as Nuxt doesn't let us import Path in the client
- *
- * @param   {string}  from
- * @param   {string}  to
- * @return  {string}
- */
-function resolve (from = '', to = '') {
-  // absolute to; just use to
-  if (to.startsWith('/')) {
-    return to
-  }
+import { resolve } from 'path-browserify'
 
-  // strip consecutive //
-  let target = (from + '/' + to)
-  while (target.includes('//')) {
-    target = target.replace(/\/\//g, '/')
-  }
-
-  // remove folder/../ pairs
-  const rxUp = /[^/]+?\/..\//
-  while (rxUp.test(target)) {
-    target = target.replace(rxUp, '')
-  }
-
-  // if we still have .. left, we're above /, so stop at /
-  if (target.includes('..')) {
-    target = '/'
-  }
-
-  // return
-  return target
+function trim (path) {
+  return path === '/'
+    ? path
+    : path.replace(/\/$/, '')
 }
 
 export default {
@@ -37,14 +11,30 @@ export default {
     to: {
       type: String,
       required: true,
-    }
+    },
+    disabled: {
+      type: Boolean,
+      default: false,
+    },
+  },
+
+  computed: {
+    target () {
+      return trim(resolve(this.$route.path, this.to))
+    },
+
+    hasTarget () {
+      return this.$router.match(this.target).name
+    },
   },
 
   render (h) {
-    const to = resolve(this.$route.path, this.to)
     const data = {
       props: {
-        to
+        to: this.target,
+      },
+      attrs: {
+        disabled: this.hasTarget ? undefined : 'disabled',
       }
     }
     return h('nuxt-link', data, [
