@@ -2,7 +2,7 @@
   <section>
     <h3>Foo index</h3>
     <output>
-      <pre>app/core/pages/foo/index</pre>
+      <PageInfo />
       <StoreValue />
     </output>
     <section>

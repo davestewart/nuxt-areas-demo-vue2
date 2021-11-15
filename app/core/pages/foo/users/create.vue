@@ -2,7 +2,7 @@
   <section>
     <h3>Create user</h3>
     <output>
-      <pre>app/core/pages/foo/users/create</pre>
+      <PageInfo />
     </output>
   </section>
 </template>

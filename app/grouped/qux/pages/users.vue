@@ -2,7 +2,7 @@
   <section>
     <h3>Qux Users</h3>
     <output>
-      <pre>app/grouped/qux/pages/users</pre>
+      <PageInfo />
     </output>
     <nuxt-child></nuxt-child>
   </section>

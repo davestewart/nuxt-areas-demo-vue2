@@ -1,3 +1,8 @@
+<template>
+  <nuxt-link :to="target" :disabled="hasTarget ? undefined : 'disabled'"><slot/></nuxt-link>
+</template>
+
+<script>
 import { resolve } from 'path-browserify'
 
 function trim (path) {
@@ -27,18 +32,5 @@ export default {
       return this.$router.match(this.target).matched.length
     },
   },
-
-  render (h) {
-    const data = {
-      props: {
-        to: this.target,
-      },
-      attrs: {
-        disabled: this.hasTarget ? undefined : 'disabled',
-      }
-    }
-    return h('nuxt-link', data, [
-      this.$slots.default
-    ])
-  }
 }
+</script>

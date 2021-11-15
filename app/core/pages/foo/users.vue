@@ -2,7 +2,7 @@
   <section>
     <h3>Foo Users</h3>
     <output>
-      <pre>app/core/pages/foo/users</pre>
+      <PageInfo />
     </output>
     <nuxt-child></nuxt-child>
   </section>

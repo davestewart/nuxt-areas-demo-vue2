@@ -2,7 +2,7 @@
   <section>
     <h3>Qux index</h3>
     <output>
-      <pre>app/grouped/qux/pages/index</pre>
+      <PageInfo />
       <StoreValue path="grouped/qux"/>
       <StoreValue path="grouped/qux/test"/>
     </output>

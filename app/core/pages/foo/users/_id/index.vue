@@ -2,8 +2,8 @@
   <section>
     <h3>View user</h3>
     <output>
-      <pre>app/core/pages/foo/users/_id/index</pre>
+      <PageInfo />
+      <RouteParams/>
     </output>
-    <nuxt-child class="child">NOTHING HERE</nuxt-child>
   </section>
 </template>

@@ -2,7 +2,7 @@
   <section>
     <h3>Admin</h3>
     <output>
-      <pre>external/admin/pages/index</pre>
+      <PageInfo />
     </output>
     <section>
       <h3>Pages</h3>

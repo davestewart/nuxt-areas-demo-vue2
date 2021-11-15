@@ -2,7 +2,7 @@
   <section>
     <h3>All users</h3>
     <output>
-      <pre>app/grouped/qux/pages/users/index</pre>
+      <PageInfo />
     </output>
     <ul>
       <li><page-link to="create">Create user</page-link></li>

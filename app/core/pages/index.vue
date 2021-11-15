@@ -2,7 +2,7 @@
   <section>
     <h3>Index</h3>
     <output>
-      <pre>app/core/pages/index</pre>
+      <PageInfo />
     </output>
     <div style="display: flex">
       <section>

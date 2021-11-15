@@ -1,6 +1,6 @@
 <template>
   <p class="value">
-    state.{{ valuePath }}: <input type="number" min="0" v-model.number="value">
+    state: {{ valuePath }}: <input type="number" min="0" v-model.number="value">
   </p>
 </template>
 

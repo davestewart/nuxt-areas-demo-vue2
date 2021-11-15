@@ -2,7 +2,7 @@
   <section>
     <h3>Bar index</h3>
     <output>
-      <pre>app/bar/pages/index</pre>
+      <PageInfo/>
       <StoreValue path="bar"/>
     </output>
     <section>

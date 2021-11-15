@@ -2,7 +2,7 @@
   <section>
     <h3>Baz Users</h3>
     <output>
-      <pre>app/baz/pages/users</pre>
+      <PageInfo />
     </output>
     <nuxt-child></nuxt-child>
   </section>

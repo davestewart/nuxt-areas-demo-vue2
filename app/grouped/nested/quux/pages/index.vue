@@ -2,7 +2,7 @@
   <section>
     <h3>Quux index</h3>
     <output>
-      <pre>app/grouped/nested/quux/pages/index</pre>
+      <PageInfo />
       <StoreValue path="nested/quux"/>
       <StoreValue path="nested/quux/test"/>
     </output>

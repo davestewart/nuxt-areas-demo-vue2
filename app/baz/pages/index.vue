@@ -2,7 +2,7 @@
   <section>
     <h3>Baz index</h3>
     <output>
-      <pre>app/baz/pages/index</pre>
+      <PageInfo />
       <StoreValue path="baz"/>
     </output>
     <section>
