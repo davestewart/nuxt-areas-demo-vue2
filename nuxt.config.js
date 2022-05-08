@@ -30,8 +30,6 @@ export default defineNuxtConfig({
   ],
 
   areas: {
-    base: 'app',
-    app: 'core',
     debug: true,
     external: [
       {
