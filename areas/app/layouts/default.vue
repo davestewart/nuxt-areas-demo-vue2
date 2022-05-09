@@ -1,7 +1,7 @@
 <template>
   <div>
     <GithubCorner/>
-    <img src="/nuxt-areas-demo.png" alt="Nuxt Areas Logo" id="logo">
+    <img :src="splash" alt="Nuxt Areas Logo" id="logo">
     <nav class="main">
       <page-link to="/" class="link-home">Home</page-link>
       <span class="separator"></span>
@@ -22,6 +22,16 @@
     <nuxt />
   </div>
 </template>
+
+<script>
+export default {
+  computed: {
+    splash () {
+      return this.$store.state.app.splash
+    }
+  }
+}
+</script>
 
 <style>
 .separator {
