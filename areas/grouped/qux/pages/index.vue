@@ -1,6 +1,9 @@
 <template>
   <section>
-    <h3>Qux index</h3>
+    <header>
+      <h3>Qux index</h3>
+      <p>"Grouped" area index using config-based routing</p>
+    </header>
     <output>
       <PageInfo />
       <StoreValue path="grouped/qux"/>

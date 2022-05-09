@@ -1,6 +1,9 @@
 <template>
   <section>
-    <h3>Bar index</h3>
+    <header>
+      <h3>Bar index</h3>
+      <p>"Normal" area index using Nuxt's file-based routing</p>
+    </header>
     <output>
       <PageInfo/>
       <StoreValue path="bar"/>

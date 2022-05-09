@@ -1,6 +1,9 @@
 <template>
   <section>
-    <h3>Admin</h3>
+    <header>
+      <h3>Admin</h3>
+      <p>"External" area index located in local folder</p>
+    </header>
     <output>
       <PageInfo />
     </output>

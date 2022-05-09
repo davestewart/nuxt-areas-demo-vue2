@@ -1,6 +1,9 @@
 <template>
   <section>
-    <h3>Bar Users</h3>
+    <header>
+      <h3>Bar users</h3>
+      <p>"Normal" area page using Nuxt's file-based routing</p>
+    </header>
     <output>
       <PageInfo />
     </output>

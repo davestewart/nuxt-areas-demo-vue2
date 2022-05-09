@@ -1,6 +1,9 @@
 <template>
   <section>
-    <h3>Baz Users</h3>
+    <header>
+      <h3>Baz users</h3>
+      <p>"Normal" area page using config-based routing</p>
+    </header>
     <output>
       <PageInfo />
     </output>

@@ -1,6 +1,9 @@
 <template>
   <section>
-    <h3>Quux index</h3>
+    <header>
+      <h3>Quux index</h3>
+      <p>"Nested" area index using config-based routing</p>
+    </header>
     <output>
       <PageInfo />
       <StoreValue path="nested/quux"/>

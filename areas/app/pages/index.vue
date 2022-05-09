@@ -1,10 +1,15 @@
 <template>
   <section>
-    <h3>Index</h3>
+    <header>
+      <h3>Index</h3>
+      <p>"App" area global index</p>
+    </header>
+
     <output>
       <PageInfo />
     </output>
-    <div style="display: flex">
+
+    <nav class="home">
       <section>
         <h3>Main</h3>
         <ul>
@@ -27,6 +32,6 @@
           <li><nuxt-link to="/fifty-one">51</nuxt-link></li>
         </ul>
       </section>
-    </div>
+    </nav>
   </section>
 </template>

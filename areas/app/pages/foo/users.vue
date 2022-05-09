@@ -1,6 +1,9 @@
 <template>
   <section>
-    <h3>Foo Users</h3>
+    <header>
+      <h3>Foo users</h3>
+      <p>"App" area page, using Nuxt's file-based routing</p>
+    </header>
     <output>
       <PageInfo />
     </output>

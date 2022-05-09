@@ -1,6 +1,9 @@
 <template>
   <section>
-    <h3>Baz index</h3>
+    <header>
+      <h3>Baz index</h3>
+      <p>"Normal" area index using config-based routing</p>
+    </header>
     <output>
       <PageInfo />
       <StoreValue path="baz"/>
