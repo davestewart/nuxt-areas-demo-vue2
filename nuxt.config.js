@@ -42,7 +42,7 @@ export default defineNuxtConfig({
         namespace: '/admin/users'
       },
       {
-        src: 'area-51',
+        src: '@davestewart/area-51',
         route: '/fifty-one',
         namespace: '/external/fiftyOne',
       },
