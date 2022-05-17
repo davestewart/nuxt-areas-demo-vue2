@@ -3,20 +3,25 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxi dev",
-    "build": "nuxi build",
-    "start": "node .output/server/index.mjs"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "link": "npm link nuxt-areas && npm link area-51"
   },
   "dependencies": {
     "area-51": "github:davestewart/area-51",
     "core-js": "^3.15.1",
-    "nuxt": "latest",
-    "nuxt-areas": "^0.8.0",
+    "nuxt": "2.15.8",
+    "nuxt-areas": "^0.9.0",
     "path-browserify": "^1.0.1"
   },
   "devDependencies": {
-    "@nuxt/bridge": "npm:@nuxt/bridge-edge@^3.0.0-27277498.850ef69",
-    "eslint": "^8.1.0",
+    "eslint": "^8.15.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-vue": "^8.7.1",
     "std-env": "^3.0.1"
   }
 }
