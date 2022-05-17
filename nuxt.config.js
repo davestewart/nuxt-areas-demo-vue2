@@ -1,6 +1,4 @@
-import { defineNuxtConfig } from '@nuxt/bridge'
-
-export default defineNuxtConfig({
+export default {
   head: {
     title: 'Nuxt Areas Demo',
     htmlAttrs: {
@@ -48,4 +46,4 @@ export default defineNuxtConfig({
       },
     ]
   }
-})
+}

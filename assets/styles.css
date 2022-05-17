@@ -24,11 +24,13 @@ body {
 
 #__layout {
   width: var(--width);
-  height: 750px;
+  height: 780px;
 }
 
 #logo {
-  width: var(--width);
+  display: block;
+  margin: 0 auto 1rem;
+  height: 420px;
   user-select: none;
   pointer-events: none;
 }

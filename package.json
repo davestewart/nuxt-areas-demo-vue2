@@ -9,10 +9,10 @@
     "link": "npm link nuxt-areas && npm link @davestewart/area-51"
   },
   "dependencies": {
-    "@davestewart/area-51": "^1.0.0",
+    "@davestewart/area-51": "^1.0.1",
     "core-js": "^3.15.1",
     "nuxt": "2.15.8",
-    "nuxt-areas": "^0.9.0",
+    "nuxt-areas": "^0.9.2",
     "path-browserify": "^1.0.1"
   },
   "devDependencies": {
