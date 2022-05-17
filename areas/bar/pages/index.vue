@@ -2,7 +2,7 @@
   <section>
     <header>
       <h3>Bar index</h3>
-      <p>"Normal" area index using Nuxt's file-based routing</p>
+      <p>"Regular" index page using Nuxt's file-based routing</p>
     </header>
     <output>
       <PageInfo/>

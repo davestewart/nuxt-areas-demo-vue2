@@ -2,7 +2,7 @@
   <section>
     <header>
       <h3>Bar users</h3>
-      <p>"Normal" area page using Nuxt's file-based routing</p>
+      <p>"Regular" page using Nuxt's file-based routing</p>
     </header>
     <output>
       <PageInfo />

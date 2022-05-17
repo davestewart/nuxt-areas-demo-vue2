@@ -2,7 +2,7 @@
   <section>
     <header>
       <h3>Admin</h3>
-      <p>"External" area index located in local folder</p>
+      <p>"External" index page located in local folder</p>
     </header>
     <output>
       <PageInfo />

@@ -2,7 +2,7 @@
   <section>
     <header>
       <h3>Foo index</h3>
-      <p>"App" area index, using Nuxt's file-based routing</p>
+      <p>"App" index page, using Nuxt's file-based routing</p>
     </header>
 
     <output>

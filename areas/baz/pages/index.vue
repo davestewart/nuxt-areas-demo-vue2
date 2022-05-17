@@ -2,7 +2,7 @@
   <section>
     <header>
       <h3>Baz index</h3>
-      <p>"Normal" area index using config-based routing</p>
+      <p>"Regular" index page using config-based routing</p>
     </header>
     <output>
       <PageInfo />

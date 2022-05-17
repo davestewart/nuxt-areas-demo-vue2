@@ -2,7 +2,7 @@
   <section>
     <header>
       <h3>Qux index</h3>
-      <p>"Grouped" area index using config-based routing</p>
+      <p>"Grouped" index page using config-based routing</p>
     </header>
     <output>
       <PageInfo />

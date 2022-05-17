@@ -2,7 +2,7 @@
   <section>
     <header>
       <h3>Quux index</h3>
-      <p>"Nested" area index using config-based routing</p>
+      <p>"Nested" index page using config-based routing</p>
     </header>
     <output>
       <PageInfo />

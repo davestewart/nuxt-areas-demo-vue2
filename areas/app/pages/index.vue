@@ -2,7 +2,7 @@
   <section>
     <header>
       <h3>Index</h3>
-      <p>"App" area global index</p>
+      <p>"App" global index page</p>
     </header>
 
     <output>

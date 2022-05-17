@@ -2,7 +2,7 @@
   <section>
     <header>
       <h3>Foo users</h3>
-      <p>"App" area page, using Nuxt's file-based routing</p>
+      <p>"App" page, using Nuxt's file-based routing</p>
     </header>
     <output>
       <PageInfo />

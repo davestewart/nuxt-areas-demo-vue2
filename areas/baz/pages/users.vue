@@ -2,7 +2,7 @@
   <section>
     <header>
       <h3>Baz users</h3>
-      <p>"Normal" area page using config-based routing</p>
+      <p>"Regular" page using config-based routing</p>
     </header>
     <output>
       <PageInfo />
